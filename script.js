@@ -49,6 +49,8 @@ function unFlipCards(){
      [hasFlippedCard , lockBoard] = [false, false];
      [firstCard, secondCard] = [ null, null];
  }
+ 
+ /**/ embaralhar cartas */
  (function shuffler(){
      cards.forEach( (card) => {
          let randomPosition = Math.floor(Math.random() * 12);
